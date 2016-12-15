@@ -4,12 +4,17 @@ node_modules/
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
+Homestead.yaml
+Homestead.json
+composer.phar
+composer.lock
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
 .env.*.php
 .env.php
 .env
+.env.local.php
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
