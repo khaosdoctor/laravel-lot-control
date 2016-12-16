@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace lot_control\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

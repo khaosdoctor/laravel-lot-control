@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace lot_control\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesCommands;
 use Illuminate\Routing\Controller as BaseController;

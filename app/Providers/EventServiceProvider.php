@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace lot_control\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;

@@ -39,7 +39,7 @@ return [
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'America/Sao_Paulo',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'pt_br',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'lot_control\Providers\AppServiceProvider',
+		'lot_control\Providers\BusServiceProvider',
+		'lot_control\Providers\ConfigServiceProvider',
+		'lot_control\Providers\EventServiceProvider',
+		'lot_control\Providers\RouteServiceProvider',
 
 	],
 

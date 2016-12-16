@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace lot_control\Http\Controllers;
 
 class WelcomeController extends Controller {
 
