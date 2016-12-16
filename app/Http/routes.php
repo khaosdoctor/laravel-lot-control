@@ -11,11 +11,15 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'ProdutoController@listar');
+Route::get('/produto/{id}', 'ProdutoController@detalhe');
+Route::post('/produto/{id}', 'ProdutoController@editar');
+Route::get('/produto/insert', 'ProdutoController@novo');
+Route::post('/produto/insert', 'ProdutoController@inserir');
+Route::get('/produto/delete/{id}', 'ProdutoController@remover');
 
-Route::get('home', 'HomeController@index');
-
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::get('/lote/insert/{produto}', 'LoteController@novo');
+Route::post('/lote/insert/{produto}/{id}', 'LoteController@inserir');
+Route::get('/lote/{id}', 'LoteController@detalhe');
+Route::post('/lote/{id}', 'LoteController@editar');
+Route::get('/lote/delete/{id}', 'LoteController@remover');
